@@ -14,7 +14,3 @@ then use `stow` to create symlinks
 ```
 stow --restow --target=$HOME --backup --suffix=.bak .
 ```
-```
-```
-```
-```
