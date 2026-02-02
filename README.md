@@ -12,5 +12,5 @@ cd dotfiles
 then use `stow` to create symlinks
 
 ```
-stow --restow --target=$HOME --backup --suffix=.bak .
+mv ~/.config/hypr ~/.config/hypr.bak && stow hypr
 ```
