@@ -72,3 +72,5 @@ eval "$(zoxide init --cmd cd zsh)"
 # Ctrl + Arrow word navigation (kitty)
 bindkey '^[[1;5D' backward-word
 bindkey '^[[1;5C' forward-word
+
+export PATH=$PATH:/home/dekomori/.spicetify
